@@ -1,0 +1,9 @@
+# General
+**/.DS_Store
+.idea/
+
+# Terraform
+**/.terraform/
+**/*.tfvars
+**/*.tfstate*
+**/*.tfplan
