@@ -23,3 +23,7 @@ variable "num_prv_subnets"          { default = 3 }
 variable "cfg_prv_subnets"          { # Format: <CIDR_blk>,<name>
                                       type = "list"
                                     }
+variable "num_pub_subnets"          { default = 3 }
+variable "cfg_pub_subnets"          { # Format: <CIDR_blk>,<name>
+                                      type = "list"
+                                    }
